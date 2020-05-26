@@ -3,7 +3,7 @@ reimportlib: refactored imports
 """
 from setuptools import setup, find_packages
 
-VERSION = '1.0'
+VERSION = '1.0.1'
 
 
 def get_requirements():
@@ -23,6 +23,7 @@ setup(name='reimportlib',
       version=VERSION,
       description="reimportlib: refactored imports",
       long_description=get_readme(),
+      long_description_content_type='text/markdown',
       classifiers=['Topic :: Software Development :: Libraries :: Python Modules'],
       keywords='importlib refactor module rename move serialize',
       author='Karthik Kumar Viswanathan',
