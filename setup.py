@@ -3,7 +3,7 @@ reimportlib: refactored imports
 """
 from setuptools import setup, find_packages
 
-VERSION = '1.0.1'
+VERSION = '1.0.2'
 
 
 def get_requirements():
@@ -28,7 +28,7 @@ setup(name='reimportlib',
       keywords='importlib refactor module rename move serialize',
       author='Karthik Kumar Viswanathan',
       author_email='karthikkumar@gmail.com',
-      url='http://karthikkumar.org',
+      url='https://github.com/guilt/reimportlib',
       license='BSD',
       packages=find_packages(exclude=['ez_setup', 'examples', 'examples.*', 'tests']),
       include_package_data=False,
